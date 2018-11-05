@@ -66,3 +66,11 @@ h1, h2{
 #elixirs {
   line-height: 1;
 }
+
+.cd {
+  font-style: italic;
+}
+
+.artist{
+  font-weight: bold;
+}

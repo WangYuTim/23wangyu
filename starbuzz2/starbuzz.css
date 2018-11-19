@@ -28,6 +28,7 @@ body {
 }
 
 #footer {
+  position: relative;
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -96,8 +97,7 @@ div#tableRow {
 #award {
   position: absolute;
   top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  left: 365px;
 }
 
 #coupon {

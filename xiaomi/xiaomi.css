@@ -1,3 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .site-topbar {
   position: relative;
    z-index: 30;
@@ -39,10 +44,9 @@
   color: #b0b0b0;
   float: right;
   line-height: 40px;
-  width: 100px;
-  margin-left: 15px;
-  padding-left: 10px;
-  
+  width: 110px;
+  margin-left: 25px;
+  padding-left: 15px;
 }
 
 .topbar-info {
@@ -59,23 +63,79 @@
 
 .header-nav {
   position: relative;
+  display: inline-block;
   float: left;
   width: 820px;
   height: 88px;
-  margin: 0;
+  margin: 0 auto;
   padding: 12px 0 0 30px;
-  list-style-type: none;
   font-size: 16px;
-  
 }
 
 li {
-  display: list-item;
+  float: left;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.header-nav a {
+  color: #333;
+  text-decoration: none;
 }
 
 .none {
   position: relative;
   float: left;
-  width: 127px;
+  width: 80px;
   padding-right: 15px;
+}
+
+.header-search {
+  position: relative;
+  float: right;
+  top: 15px;
+}
+
+.header-search input[type="text"]{
+  height: 40px;
+  width: 243px;
+  border: 1px solid #e0e0e0;
+}
+
+.header-search input[type="text"]:hover{
+  border: 1px solid #b0b0b0;
+}
+
+.header-search input[type="text"]:focus{
+  outline: none;
+}
+
+.inside-words {
+  position: absolute;
+  font-size: 12px;
+  right: 40px;
+}
+
+.inside-words a {
+  background-color: #eee;
+  color: #757575;
+  padding: 3px 6px;
+  position: relative;
+  top: 35px;
+  right: 20px;
+}
+
+.inside-words a:hover{
+  background-color: rgba(255,103,0,0.98);
+  color: white;
+}
+
+.header-search input[type="submit"]{
+  height: 43px; width: 43px;
+  background: url("images/sousuo.JPG") no-repeat 3px 6px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  top: 16px;
+  cursor: pointer;
+  left: -6px;
 }

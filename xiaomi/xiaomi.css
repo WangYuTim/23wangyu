@@ -72,7 +72,7 @@ body {
   font-size: 16px;
 }
 
-li {
+.header-nav li {
   float: left;
   list-style-type: none;
   margin: 10px;
@@ -138,4 +138,25 @@ li {
   top: 16px;
   cursor: pointer;
   left: -6px;
+}
+
+.home-header {
+  position: absolute;
+  top: 140px;
+  height: 460px;
+  width: 240px;
+  border: 0;
+  background-color: #b0b0b0;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.home-header li {
+  list-style-type: none;
+  height: 45px;
+}
+
+.home-header a {
+  text-decoration: none;
+  color: #fff;
 }

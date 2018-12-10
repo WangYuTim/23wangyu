@@ -148,7 +148,7 @@ body {
   border: 0;
   background-color: #b0b0b0;
   margin: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .home-header li {
@@ -159,4 +159,60 @@ body {
 .home-header a {
   text-decoration: none;
   color: #fff;
+}
+
+.home .picture img {
+  display: block;
+  width: 1226px;
+  height: 460px;
+}
+
+.span6 {
+  
+  width: 240px;
+  float: left;
+  margin-left: 0px;
+  min-height: 1px;
+}
+
+.span6 ul {
+  margin: 0;
+  padding: 3px;
+  list-style-type: none;
+  font-size: 12px;
+  text-align: center;
+  background-color: #5f5750;
+  height: 160px;
+  width: 244px;
+}
+
+.span6 li {
+  position: relative;
+  float: left;
+  list-style-type: none;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+}
+
+.span6 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.img3 img {
+  width: 316px;
+  height: 170px;
+}
+
+.img3 .i1 {
+  margin-left: 20px;
+}
+
+.img3 .i2 {
+  margin-left: 5px;
+}
+
+.img3 .i3 {
+  margin-left: 3px;
 }

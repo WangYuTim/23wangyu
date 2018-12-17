@@ -221,3 +221,43 @@ body {
 .footer {
   margin-top: 10px;
 }
+
+.bkgd {
+  background-color: #f5f5f5
+}
+
+.wntj img {
+  width: 140px;
+}
+
+.wntj ul {
+  margin: 0px;
+  list-style-type: none;
+}
+
+.wntj li {
+  margin-bottom: 14px;
+  margin-right: 14px;
+  margin-top: 0px;
+  padding: 0px;
+  float: left;
+  height: 300px;
+  width: 234px;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.wntj a {
+  color: #333;
+  text-decoration: none;
+}
+
+.rmcp li {
+  float: left;
+}
+
+.rmcp img {
+  width: 296px;
+  height: 220px;
+}

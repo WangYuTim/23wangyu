@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.site-topbar {
+.site-topbar-Wy {
   position: relative;
    z-index: 30;
   height: 40px;
@@ -17,7 +17,7 @@ body {
   margin-left: auto;
 }
 
-.site-topbar a {
+.site-topbar-Wy a {
   color: #b0b0b0;
   text-decoration: none;
 }
@@ -112,7 +112,7 @@ body {
   color: #fff;
 }
 
-.home .picture img {
+.home-23 .picture img {
   display: block;
   width: 1226px;
   height: 460px;
@@ -173,7 +173,7 @@ body {
   margin-top: 10px;
 }
 
-.bkgd {
+.bkgd-QAQ {
   background-color: #f5f5f5;
 }
 

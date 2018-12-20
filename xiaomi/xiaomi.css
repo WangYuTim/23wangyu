@@ -58,7 +58,8 @@ body {
 
 .logo {
   float: left;
-  margin-top: 22px;
+  padding-top: 22px;
+  padding-bottom: 10px;
 }
 
 .header-nav {
@@ -88,57 +89,6 @@ body {
   float: left;
   width: 80px;
   padding-right: 15px;
-}
-
-.header-search {
-  position: relative;
-  float: right;
-  top: 15px;
-}
-
-.header-search input[type="text"]{
-  height: 40px;
-  width: 243px;
-  border: 1px solid #e0e0e0;
-}
-
-.header-search input[type="text"]:hover{
-  border: 1px solid #b0b0b0;
-}
-
-.header-search input[type="text"]:focus{
-  outline: none;
-}
-
-.inside-words {
-  position: absolute;
-  font-size: 12px;
-  right: 40px;
-}
-
-.inside-words a {
-  background-color: #eee;
-  color: #757575;
-  padding: 3px 6px;
-  position: relative;
-  top: 35px;
-  right: 20px;
-  text-decoration: none;
-}
-
-.inside-words a:hover{
-  background-color: rgba(255,103,0,0.98);
-  color: white;
-}
-
-.header-search input[type="submit"]{
-  height: 43px; width: 43px;
-  background: url("images/sousuo.JPG") no-repeat 3px 6px;
-  border: 1px solid #e0e0e0;
-  position: relative;
-  top: 16px;
-  cursor: pointer;
-  left: -6px;
 }
 
 .home-header {
@@ -183,14 +133,13 @@ body {
   font-size: 12px;
   text-align: center;
   background-color: #5f5750;
-  height: 160px;
+  height: 165px;
   width: 244px;
 }
 
 .span6 li {
   margin-top: 7px;
   margin-left: 3px;
-  position: relative;
   float: left;
   list-style-type: none;
   width: 70px;
@@ -200,7 +149,7 @@ body {
 
 .span6 a {
   text-decoration: none;
-  color: #fff;
+  color: #b0b0b0;
 }
 
 .img3 img {
@@ -229,15 +178,23 @@ body {
 }
 
 .title {
-  font-weight: 10;
+  font-size: 22px;
+  font-weight: 200;
+  padding-top: 30px;
+}
+
+.leave {
+  margin-top: 40px;
 }
 
 .wntj img {
   width: 140px;
+  margin-top: 25px;
 }
 
 .wntj ul {
   width: 1250px;
+  height: 300px;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
@@ -253,7 +210,6 @@ body {
   width: 234px;
   background-color: #fff;
   text-align: center;
-  position: relative;
 }
 
 .wntj a {
@@ -289,14 +245,16 @@ body {
 .rpcp ul {
   margin: 0px;
   padding: 0px;
+  height: 400px;
   list-style-type: none;
 }
 
 .rpcp li {
   float: left;
   width: 290px;
-  height: 430px;
+  height: 400px;
   margin-right: 16px;
+  background-color: #fff;
 }
 
 .rpcp a {
@@ -325,11 +283,137 @@ body {
   margin-left: 20px;
 }
 
-.words {
+.words1 {
   text-align: left;
   padding: 30px 20px 25px 20px;
 }
 
 .sp ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  height: 350px;
+}
+
+.sp img {
+  width: 296px;
+  height: 180px;
+}
+
+.sp li {
+  float: left;
+  width: 290x;
+  height: 400x;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.sp .words2 {
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+.sp a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sp .cc {
+  color: #757575;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.site-topbar a:hover {
+  color: #fff;
+}
+
+.stite-header a:hover {
+  color: #ff6700;
+}
+
+.span6 a:hover {
+  color: #fff;
+}
+
+.bkgd li:hover {
+  box-shadow: 0 15px 30px rgb(0,0,0,0.1);
+  transform: translate3d(0,-2px,0);
+}
+
+.img3 img:hover {
+  box-shadow: 0 15px 30px rgb(0,0,0,0.1);
+  transform: translate3d(0,0,0);
+}
+
+.span5 {
+  height: 55px;
+  padding-top: 27px;
+}
+
+.span5 a {
+  color: #616161;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.span5 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ .nn {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  width: 19.8%;
+  text-align: center;
+  border-right-style: solid;
+  border-right-color: #e0e0e0;
+  border-right-width: 1px;
+}
+
+.span5 li {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  width: 19.8%;
+  text-align: center;
+}
+
+.message {
+  padding-top: 30px;
+  height: 100px;
+  font-size: 12px;
+}
+
+.logo2 {
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.message a {
+  text-decoration: none;
+}
+
+.message .fc1 a {
+  color: #757575;
+}
+
+.message .fc2 a {
+  color: #b0b0b0;
+}
+
+.message .fc2 {
+  color: #b0b0b0;
+}
+
+.message a:hover {
+  color: #ff6700;
 }
